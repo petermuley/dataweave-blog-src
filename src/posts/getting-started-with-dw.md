@@ -31,7 +31,7 @@ The two most common arguments against studio that I hear are that it is either t
 
 Think the three panel experience the web playground gives you is better? Guess what, studio can do it too! Just throw a transform message component in your dw-testing project, double click the component properties tab, and turn on preview!
 
-![Test](../images/studio-dw-editor.gif)
+![](../images/studio-dw-editor.gif)
 
 And there you go! Full screen code editing, you can set your sample data on the left (if you haven't set it yet, it will prompt you for a data type first), and all functionality of dataweave is supported, such as including libraries, custom flat file formats, etc.
 
