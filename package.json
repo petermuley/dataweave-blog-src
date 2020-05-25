@@ -15,7 +15,8 @@
     "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby clean && gatsby build && gh-pages --dotfiles -d public -b master -r https://github.com/thisisverytricky/dataweave-blog.git"
+    "deploy": "gatsby clean && gatsby build && gh-pages --dotfiles -d public -b master -r https://github.com/thisisverytricky/dataweave-blog.git",
+    "previewDeploy": "mv static/CNAME static/_CNAME && gatsby clean && gatsby build && gh-pages --dotfiles -d public -b master -r https://github.com/thisisverytricky/dataweave-blog-preview.git && mv static/_CNAME static/CNAME"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
