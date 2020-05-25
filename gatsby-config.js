@@ -6,6 +6,7 @@ const cssnano = require("cssnano");
 const postCSSMixins = require("postcss-mixins");
 
 module.exports = {
+  pathPrefix: `/dataweave-blog-preview`,
   siteMetadata: {
     title: `payload.title`,
     description: `A blog about all things Mulesoft, with a focus on Dataweave`,
