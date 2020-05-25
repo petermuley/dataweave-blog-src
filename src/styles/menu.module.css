@@ -6,6 +6,20 @@
   }
 }
 
+.mesloIcon {
+  font-family: 'MesloLGS NF';
+  font-size: 1.5rem;
+  margin-top: -.30rem;
+}
+
+.mesloIcon span {
+  margin-right: 1.5rem;
+
+  &:first-of-type {
+    margin-left: 10px;
+  }
+}
+
 .desktopMenuContainer {
   display: block;
 
