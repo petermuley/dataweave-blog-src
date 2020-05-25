@@ -1,4 +1,4 @@
-#Static blog about Mulesoft, with a focus on Data-Weave
+# Static blog about Mulesoft, with a focus on Data-Weave
 https://mikej.net
 
 Powered by [Gatsby](https://www.gatsbyjs.org/)
