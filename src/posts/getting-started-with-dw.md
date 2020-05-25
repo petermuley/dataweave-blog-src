@@ -19,7 +19,7 @@ tags: ["dataweave", "mule 4"]
 
 ---
 
-## Environment Setup
+# Environment Setup
 
 ### **Anypoint Studio**
 
@@ -60,7 +60,7 @@ To launch 2.3.1 as a named, detached playground which will start with your syste
 
 Pick whichever snapshot you want to use from the tag list and get going with it. I'm not going to go any further into the playground as it is pretty straightforward - and pretty limited. If you run into issues with the playground, I suggest moving your wokr to the studio as there is no support for the playground.
 
-## Syntax Basics
+# Syntax Basics
 
 ### **What the heck is the ---?**
 
