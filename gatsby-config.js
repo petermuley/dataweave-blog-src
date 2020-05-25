@@ -25,6 +25,10 @@ module.exports = {
         title: "About",
         path: "/about",
       },
+      {
+        title: "DW Cookbook",
+        path: "/dw-cookbook"
+      },
     ],
   },
   plugins: [
