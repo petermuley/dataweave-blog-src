@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'MesloLGS NF';
+  src: url('../../static/fonts/MesloLGS NF Regular.ttf') format('truetype');
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto Mono';
