@@ -38,11 +38,7 @@ const Header = props => {
     <>
       <Helmet>
         <body
-          className={
-            (userTheme || defaultTheme) === 'light'
-              ? 'light-theme'
-              : 'dark-theme'
-          }
+          className={'dark-theme'}
         />
       </Helmet>
       <header className={style.header}>

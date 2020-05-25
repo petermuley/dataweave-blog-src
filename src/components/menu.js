@@ -113,14 +113,19 @@ const Menu = ({
           ) : null}
         </ul>
       </div>
-      <button
+      {/* <button
         className={style.themeToggle}
         onClick={onChangeTheme}
         type="button"
         aria-label="Theme toggle"
       >
         <Icon style={{ cursor: 'pointer' }} size={24} d={toggleIcon} />
-      </button>
+      </button> */}
+      <div className={style.mesloIcon}>
+        <a href="https://github.com/thisisverytricky" target="_blank"><span></span></a>
+        <a href="https://stackoverflow.com/users/10890536/michael-jones" target="_blank"><span></span></a>
+        <a href="https://www.linkedin.com/in/michael-jones-5a870678/" target="_blank"><span></span></a>
+      </div>
     </>
   )
 }
