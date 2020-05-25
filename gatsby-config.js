@@ -20,7 +20,12 @@ module.exports = {
     postsPerPage: 11,
     showMenuItems: 3,
     menuMoreText: "Show more",
-    mainMenu: [],
+    mainMenu: [
+      {
+        title: "About",
+        path: "/about",
+      },
+    ],
   },
   plugins: [
     `babel-preset-gatsby`,
@@ -98,8 +103,8 @@ module.exports = {
           {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
-              className: `autolink-header`
-            }
+              className: `autolink-header`,
+            },
           },
           {
             resolve: `gatsby-remark-prismjs`,
