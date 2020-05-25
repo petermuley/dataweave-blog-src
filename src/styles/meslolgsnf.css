@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'MesloLGS NF';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../../static/fonts/MesloLGSNFRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'MesloLGS NF';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("../../static/fonts/MesloLGSNFItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'MesloLGS NF';
+  font-style:  normal;
+  font-weight: 600;
+  src: url("../../static/fonts/MesloLGSNFBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'MesloLGS NF';
+  font-style:  italic;
+  font-weight: 600;
+  src: url("../../static/fonts/MesloLGSNFBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'MesloLGS NF';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("../../static/fonts/MesloLGSNFBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'MesloLGS NF';
+  font-style:  italic;
+  font-weight: 800;
+  src: url("../../static/fonts/MesloLGSNFBoldItalic.ttf") format("truetype");
+}
