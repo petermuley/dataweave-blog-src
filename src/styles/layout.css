@@ -170,7 +170,7 @@ figure {
 }
 
 code {
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-family: 'MesloLGS NF', Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-feature-settings: normal;
   font-weight: normal;
   background: var(--light-background-secondary);
