@@ -274,7 +274,7 @@ Results in
   ...
 ```
 
-Map is iterating every item, and we're mapping it into a new item with the keys `index` and `value`. Remember though! Data is immutable in data-weave, so we aren't iterating the array in place, so we have to yield a new item which is included in our resulting array.
+Map is iterating every item, and we're mapping it into a new item with the keys `index` and `value`. Remember though! Data is immutable in data-weave, so we aren't changing the array in place, so we have to yield a new item which is included in our resulting array.
 
 ### [mapObject](https://docs.mulesoft.com/mule-runtime/4.3/dw-core-functions-mapobject)
 
