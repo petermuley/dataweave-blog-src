@@ -37,7 +37,7 @@ tags: ["dataweave", "mule 4"]
 
 Your go to IDE should always be Anypoint Studio - this is the only **official** way to work with Mule (outside of design center at least). No other environment is going to give you access to all of the features of data-weave, and no other environment is going to guarntee that your data-weave behaves as expected when moved into production.
 
-The two most common arguments against studio that I hear are that it is either too slow / resource intensive, or that the experience isn't as good as the web based playground. To that end, I've laid out what I think are some 'best practices' for using studio.
+The two most common arguments against studio that I hear are that it is either too slow / resource intensive, or that the experience isn't as good as the web based playground.
 
 **Use a separate workspace or project**. If you're looking for a place to quickly work on data-weave, and you find studio to be too slow / non-responsive, consider using a separate workspace just for your data-weave. When you have a multiple projects in studio, the background tooling is constantly running to validate / resolve metadata. The less you have open, the faster it's going to run! So if you're working on a complicated data-weave for a project, separating it out into a separate project and closing your main project can be beneficial. This also sets you up for creating reusable data-weave modulues if thats the route you decide to go!
 
