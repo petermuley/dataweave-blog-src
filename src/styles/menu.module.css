@@ -24,9 +24,19 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 5px;
+    padding-top: 5px;
     padding-bottom: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
     background: #252627;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    span {
+      margin: 0;
+    }
   }
 }
 
