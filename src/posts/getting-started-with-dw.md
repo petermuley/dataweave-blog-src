@@ -43,7 +43,7 @@ The two most common arguments against studio that I hear are that it is either t
 
 Think the three panel experience the playground gives you is better? Guess what, studio can do it too! Just throw a transform message component in your project, double click the component properties tab, and turn on preview!
 
-<a href="#" onclick="enlargeImage(this)">![](../images/studio-dw-editor.gif)</a>
+<a href="javascript:void();" onclick="enlargeImage(this)">![](../images/studio-dw-editor.gif)</a>
 
 There you go! Full screen code editing, your sample payload on the left (if you haven't set it yet, it will prompt you for a data type first), and all functionality of data-weave is supported, such as importing modules, custom flat file formats, every single output writer, etc.
 
@@ -51,7 +51,7 @@ There you go! Full screen code editing, your sample payload on the left (if you 
 
 **_The playground is NOT an official tool and is not supported by Mulesoft. The playground is a hobby project written by someone with a passion for data-weave, but you shouldn't be using it for anything other than quick snippets_**
 
-<a href="#" onclick="enlargeImage(this)">![](../images/dw-playground.gif)</a>
+<a href="javascript:void();" onclick="enlargeImage(this)">![](../images/dw-playground.gif)</a>
 
 So I just got done telling you to do all of your data-weave development in studio, and now I'm talking about the web-based playground. What gives? Well, one good reason to use the playground is for testing in specific snapshots of data-weave; I personally keep the latest DW2.X version and the latest DW1.X version. I typically find myself going to the playground when writing up a snippet for someone on stackoverflow or to answer a question on slack - you just can't beat how quick it is to bring up and play with. What I'm not doing is writing data-weave intended for a project; I can't setup proper folder structures, unit testing, logging, etc. It only makes sense to me for quick, short snippets.
 
