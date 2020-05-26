@@ -1,6 +1,7 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, withPrefix } from 'gatsby'
 import SEO from '../components/seo'
 import Layout from '../components/layout'
 import Post from '../components/post'

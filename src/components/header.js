@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
 import Menu from './menu'
@@ -37,6 +37,7 @@ const Header = props => {
   return (
     <>
       <Helmet>
+        <script src={withPrefix('imageEnlarger.js')} type="text/javascript" />
         <body
           className={'dark-theme'}
         />
