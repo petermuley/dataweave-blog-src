@@ -69,7 +69,7 @@ And now you can access the playground at http://localhost:9999
 
 `docker run --detach --publish 8080:9999 --name dw-playground-2.3.1 --restart unless-stopped machaval/dw-playground:2.3.1-SNAPSHOT`
 
-Pick whichever snapshot you want to use from the tag list and get going with it. I'm not going to go any further into the playground as it is pretty straightforward - and pretty limited. If you run into issues with the playground, I suggest moving your wokr to the studio as the playground is not supported.
+Pick whichever snapshot you want to use from the tag list and get going with it. I'm not going to go any further into the playground as it is pretty straightforward - and pretty limited. If you run into issues with the playground, I suggest moving your work to the studio as the playground is not supported.
 
 ---
 
@@ -409,7 +409,7 @@ Which results in:
 }
 ```
 
-Ok ok.. I promise I like cats too!! As you can see though, this is a powerful pattern in which we can manipulate the entire structure of an object quickly, and easily. One of my CookBook examples shows you how to append an XML namespace one very object key as simply as
+Ok ok.. I promise I like cats too!! As you can see though, this is a powerful pattern in which we can manipulate the entire structure of an object quickly, and easily. One of my CookBook examples shows you how to append an XML namespace on very object key as simply as
 
 ```data-weave
 payload appendNamespace tem
