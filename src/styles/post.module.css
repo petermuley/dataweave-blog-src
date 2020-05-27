@@ -1,3 +1,17 @@
+.editOnGithubLink {
+  float: right;
+  font-family: 'MesloLGS NF';
+  text-decoration: none;
+  font-size: .7rem;
+  border-radius: 5px;
+  padding: 10px;
+  background: #292D3E;
+  color: #C792EA;
+}
+.editOnGithubLink:hover {
+  color: #82AAFF;
+}
+
 .post {
   width: 50%;
 

@@ -18,6 +18,7 @@ const Post = ({
   html,
   previousPost,
   nextPost,
+  fileAbsolutePath,
 }) => {
   const previousPath = previousPost && previousPost.frontmatter.path;
   const previousLabel = previousPost && previousPost.frontmatter.title;
@@ -27,6 +28,9 @@ const Post = ({
   return (
     <div className={style.post}>
       <div className={style.postContent}>
+        {fileAbsolutePath ? (
+          <a href={`https://github.com/thisisverytricky/dataweave-blog-src/blob/master${fileAbsolutePath.substring(fileAbsolutePath.indexOf('/src'))}`} target="_blank" className={style.editOnGithubLink}>פֿ Propose Change on GitHub</a>
+        ) : null}
         <h1 className={style.title}>
           {excerpt ? <Link to={path}>{title}</Link> : title}
         </h1>
