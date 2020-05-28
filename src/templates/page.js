@@ -13,7 +13,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     id,
     html,
   } = data.markdownRemark
-  const { next, previous } = pageContext
+  const { next, previous, fileAbsolutePath } = pageContext
 
   return (
     <Layout>
@@ -29,6 +29,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         tags={tags}
         previousPost={previous}
         nextPost={next}
+        fileAbsolutePath={fileAbsolutePath}
       />
     </Layout>
   )

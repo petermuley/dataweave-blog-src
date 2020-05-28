@@ -29,6 +29,7 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
               excerpt,
               tags,
             },
+            fileAbsolutePath,
           } = node
 
           return (
@@ -41,6 +42,7 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
               coverImage={coverImage}
               tags={tags}
               excerpt={excerpt || autoExcerpt}
+              fileAbsolutePath={fileAbsolutePath}
             />
           )
         })}

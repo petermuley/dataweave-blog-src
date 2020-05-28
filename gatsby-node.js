@@ -83,6 +83,7 @@ exports.createPages = ({ actions, graphql, getNodes }) => {
         component: pageTemplate,
         context: {
           type: getType(node),
+          fileAbsolutePath: node.fileAbsolutePath,
           next: isNextSameType ? next : null,
           previous: isPreviousSameType ? previous : null,
         },
