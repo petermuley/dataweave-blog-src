@@ -7,9 +7,15 @@
   padding: 10px;
   background: #292D3E;
   color: #C792EA;
+
+  @media (--phone) {
+    display: none;
+  }
 }
+
 .editOnGithubLink:hover {
-  color: #82AAFF;
+  color: #292D3E;
+  background: #C792EA;
 }
 
 .post {
